@@ -3,6 +3,16 @@ nome repo di oggi: js-jsnacks-blocco-1
 SNACK 1:
 In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
+1-Creo l'array dei nomi 
+2- Permetto all utente di inserire un nome
+3- Dichiaro una variabile di controllo e la metto sul falso
+4- Cilco Array
+5-Confronto il valore del array con quello dell utente
+6-Se sono uguali imposto la variabile sul vero
+7-Altrimenti vado avanti senza fare nulla
+8-Finisco variabile di controllo
+9-Se TRUEvmostro il messaggio di BENVENUTO
+
 
 SNACK 2:
 Crea un array vuoto.
