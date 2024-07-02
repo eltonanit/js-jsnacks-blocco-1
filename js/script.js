@@ -32,3 +32,28 @@ document.getElementById(check-guest).addEventListener('click', function (){
         console.log(`ALT! Chi sei`);
     }
  })
+
+
+// SNACK 2
+
+//Creo Array vuoto
+
+let numbers = [];
+
+//Ciclo Array di cique iterazioni
+for(i=0; i<5;i++){
+
+    let num = prompt('inserisci un numero');
+
+    //VERIFICO se il numero è dispari
+
+    if(num % 2 != 0 ) {
+        //Questo aggiunge il numero nell array
+        numbers.push(num)
+    }
+
+}
+
+//Mostro l'array che grazie al push avra il nuovo numero
+
+console.log(numbers);
