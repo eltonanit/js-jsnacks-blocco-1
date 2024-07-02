@@ -13,15 +13,29 @@ In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, c
 8-Finisco variabile di controllo
 9-Se TRUEvmostro il messaggio di BENVENUTO
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------
 SNACK 2:
 Crea un array vuoto.
 Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell'array
 
+1- Creo un array vuoto
+2-Eseguo un ciclo
+3-Creo un prompt per l utente dove inserira un numero
+4-Se è dispari metterlo nell'array
+5-Altrimenti non fare nulla
+6-Mostro l'array
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 SNACK 3:
 Chiedi un numero di 4 cifre all’utente
 e calcola la somma di tutte le cifre che compongono il numero.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 BONUS:
 Il software deve chiedere per 10 volte all’utente di inserire un numero.
