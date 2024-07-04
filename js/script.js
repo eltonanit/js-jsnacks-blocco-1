@@ -48,7 +48,7 @@ btn.addEventListener('click', function (){
 let numbers = [];
 
 //Ciclo Array di cique iterazioni
-for(i=0; i<5;i++){
+for(i=0; i<6;i++){
 
     let num = prompt('inserisci un numero');
 
@@ -68,19 +68,30 @@ console.log(numbers);
 
 // SNACK 3
 
-document.getElementById('send-number').addEventListener('click', function() {
+//Recupero il pulsante 
+const btnn = document.getElementById('send-number');
 
-    let num = document.getElementById('number').value;
+btnn.addEventListener('click', function() {
 
-    if(num.length === 4 ) {
-        let somma= 0 ;
-        for ( let i = 0; i<num.length;i++) {
-            console.log(num(i));
-            somma += parseInt(num(i));
-            console.log(somma);
+    //Recupero il valore del input
+    let nume = document.getElementById('number').value;
 
-        }
-    }
+    if ( nume.length === 4 ) {
+
+        //Recupero il valore del input
+       
+        let somma = 0 ;
+        for ( let i = 0; i < nume.length; i++) {
+        
+            somma += parseInt(nume[i]);
+console.log(somma);
+            //  PRIMO va nel DOM poi prende l id result w von il .innerhtml crea cose emse metti ${nome variabile }
+            //Visualizzo il risultato nel DOM
+            document.getElementById('result').innerHTML = `<h2>La somma delle cifre di ${nume} è ${somma}</h2>`;
+
+        } 
+
+    } 
     else {
         alert('Non hai inserito un valore a quattrro cifre')
     }
