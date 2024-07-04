@@ -4,21 +4,28 @@
 
 let guests = ['uno','due','tre','cinque'];
 
-// Variabile di controllo
-let check_guest = false 
+
 
 
 // Recupero il pulsante dal DOM
 
-document.getElementById(check-guest).addEventListener('click', function (){
+const btn = document.getElementById('check-guest');
 
+// Aggiungo evento al click pulsante 
+btn.addEventListener('click', function (){
+
+//Recupero il valore del inmput id name 
     let name = document.getElementById('name').value;
+
+    // Variabile di controllo
+    let check_guest = false 
     
     //Ciclo Array
 
     for (i = 0; i < guests.length; i++){
         if (guests[i].toLowerCase() === name.toLowerCase()) {
             check_guest = true;
+            break; // Esce dal ciclo una volta trovato il nome
 
         }
     }
@@ -33,7 +40,7 @@ document.getElementById(check-guest).addEventListener('click', function (){
     }
  })
 
-
+//---------------------------------------------Snack 1 risoldto
 // SNACK 2
 
 //Creo Array vuoto
